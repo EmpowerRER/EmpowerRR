@@ -68,6 +68,7 @@ namespace EmpowerRR_1
 		/// <param name="engine">Link with SLAutomation process.</param>
 		public void Run(IEngine engine)
 		{
+			// This change is to show a good working flow
 			engine.GenerateInformation("Hello World");
 		}
 	}
